@@ -42,7 +42,7 @@ userdel udpgw
 rm -f /etc/systemd/system/udpgw.service
 systemctl daemon-reload
 systemctl restart sshd
-rm -rf /etc/rezoth-ssh
+rm -rf /etc/King-Amda-VPS
 rm -f /usr/local/bin/menu
 sed -i ':a;N;$!ba;s/\n\/bin\/false//g' /etc/shells
 }

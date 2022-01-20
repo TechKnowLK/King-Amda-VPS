@@ -237,19 +237,19 @@ echo -ne "${GREEN}Installing King Amda required packages ............."
 pre_req >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${BLUE}Configuring Stunnel, Openssh, Dropbear and Squid ............."
+echo -ne "\n${BLUE}Configuring ddddddStunnel, Openssh, Dropbear and Squid ............."
 mid_conf >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${YELLOW}Compiling and installing Badvpn UDP Gateway ............."
+echo -ne "\n${YELLOW}Compiling ddddand installing Badvpn UDP Gateway ............."
 fun_udpgw >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${CYAN}Installing Panel ............."
+echo -ne "\n${CYAN}Installing ddddPanel ............."
 fun_panel >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${RED}Starting All the services ............."
+echo -ne "\n${RED}Starting All ddddthe services ............."
 fun_service_start >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
@@ -260,7 +260,7 @@ echo /bin/false >> /etc/shells
 clear
 
 #Adding the default user
-echo -ne "${GREEN}Enter the default username : "; read username
+echo -ne "${GREEN}Enter the default usernameddddd : "; read username
 while true; do
     read -p "Do you want to genarate a random password ? (Y/N) " yn
     case $yn in
