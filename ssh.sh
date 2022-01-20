@@ -79,19 +79,24 @@ EOF
 #Adding the banner
 
 cat << EOF > /etc/banner
-<br>
-<font>ೋ˚❁ೃೀ๑۩۞۩๑ೃೀ❁ೋ˚</font><br>
-<font>┊┊┊┊ <b><font color="#ff5079">&nbsp;Rezoth</font>™</b></font><br>
-<font>┊┊┊✧ </font><br>
-<font>┊┊✦ <font color="#A52A2A">&nbsp;NO HACKING !!!</font></font><br>
-<font>┊✧ <font color="#8A2BE2">&nbsp;NO CARDING !!!</font></font><br>
-<font>✦ <font color="#FF7F50">&nbsp;NO TORRENT !!!</font></font><br>
-<font>.   ✫   .  ˚  ✦  · </font><br>
-<font> .  +  · · <font color="#33a6ff"></font></font><br>
-<font>    ✹   . <font color="#008080">&nbsp;Your privacy is our number one priority</font></font><br>
-<font>✦  · </font><br>
-<b>&nbsp;Powered by <font color="#ff5079">Rezoth™</font></b><br>
-<font>     .  +  · </font>
+<h1><font><font color="blue">╔══<br>
+║</font> 彡🇱🇰☬<font color="red">K</font><font color="maroon">I</font><font color="maroon">N</font><font color="maroon">G</font> <font color="red">A</font><font color="maroon">M</font><font color="maroon">D</font><font color="maroon">A</font> <font color="red">S</font><font color="maroon">S</font><font color="maroon">H</font>☬🇱🇰彡<font color="blue">║</font><br>
+<font color="blue"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;═╝</font></h1>
+<h3>➽───────────────❥
+<h3>ᗚ<font color="red">❌NO SPAM<br></font>
+ᗚ<font color="maroon">❌NO DDOS<br></font>
+ᗚ<font color="red">❌NO HACKING<br></font>
+ᗚ<font color="maroon">❌NO CARDING<br></font>
+ᗚ<font color="red">❌NO TORRENT<br></font>
+ᗚ<font color="maroon">❌NO OVER DOWNLOAD<br></font>
+ᗚ<font color="red">❌NO MULTILOGIN</font></h3>
+<h1>➽───────────────❥</h1>
+<h5>ᴍᴀᴋᴇ ʙʏ ᗚ PASINDU SAMARA$INGHA<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; UMINDA HANSANA<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RASITHA LAKSHAN</h5>
+<h1>»»—————　☠　—————««</h1>
+<h3>★彡[<font color="navy">4<font color="blue">2 <font color="navy">ꜱ<font color="blue">ᴇᴛ <font color="navy">ᴇ<font color="blue">ᴋᴀ <font color="navy">ᴛ<font color="blue">ᴇᴀᴍ <font color="navy">ᴡ<font color="blue">ᴏʀᴋ</font></font></font></font></font></font></font></font></font></font>]彡★</h3>
+<h1>»»—————　☠　—————««</h1>
 EOF
 
 #Configuring stunnel
@@ -183,33 +188,33 @@ EOF
 }
 fun_panel()
 {
-mkdir /etc/rezoth-ssh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ChangeUser.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ChangePorts.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/UserManager.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/Banner.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/DelUser.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ListUsers.sh
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/RemoveScript.sh
+mkdir /etc/King-Amda-VPS
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/ChangeUser.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/ChangePorts.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/UserManager.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/Banner.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/DelUser.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/ListUsers.sh
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/etc/RemoveScript.sh
 wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/menu
-mv ChangeUser.sh /etc/rezoth-ssh/ChangeUser.sh
-mv ChangePorts.sh /etc/rezoth-ssh/ChangePorts.sh
-mv UserManager.sh /etc/rezoth-ssh/UserManager.sh
-mv Banner.sh /etc/rezoth-ssh/Banner.sh
-mv DelUser.sh /etc/rezoth-ssh/DelUser.sh
-mv ListUsers.sh /etc/rezoth-ssh/ListUsers.sh
-mv RemoveScript.sh /etc/rezoth-ssh/RemoveScript.sh
-mv speedtest-cli /etc/rezoth-ssh/speedtest-cli
+wget https://raw.githubusercontent.com/TechKnowLK/King-Amda-VPS/main/menu
+mv ChangeUser.sh /etc/King-Amda-VPS/ChangeUser.sh
+mv ChangePorts.sh /etc/King-Amda-VPS/ChangePorts.sh
+mv UserManager.sh /etc/King-Amda-VPS/UserManager.sh
+mv Banner.sh /etc/King-Amda-VPS/Banner.sh
+mv DelUser.sh /etc/King-Amda-VPS/DelUser.sh
+mv ListUsers.sh /etc/King-Amda-VPS/ListUsers.sh
+mv RemoveScript.sh /etc/King-Amda-VPS/RemoveScript.sh
+mv speedtest-cli /etc/King-Amda-VPS/speedtest-cli
 mv menu /usr/local/bin/menu
-chmod +x /etc/rezoth-ssh/ChangeUser.sh
-chmod +x /etc/rezoth-ssh/ChangePorts.sh
-chmod +x /etc/rezoth-ssh/UserManager.sh
-chmod +x /etc/rezoth-ssh/Banner.sh
-chmod +x /etc/rezoth-ssh/DelUser.sh
-chmod +x /etc/rezoth-ssh/ListUsers.sh
-chmod +x /etc/rezoth-ssh/RemoveScript.sh
-chmod +x /etc/rezoth-ssh/speedtest-cli
+chmod +x /etc/King-Amda-VPS/ChangeUser.sh
+chmod +x /etc/King-Amda-VPS/ChangePorts.sh
+chmod +x /etc/King-Amda-VPS/UserManager.sh
+chmod +x /etc/King-Amda-VPS/Banner.sh
+chmod +x /etc/King-Amda-VPS/DelUser.sh
+chmod +x /etc/King-Amda-VPS/ListUsers.sh
+chmod +x /etc/King-Amda-VPS/RemoveScript.sh
+chmod +x /etc/King-Amda-VPS/speedtest-cli
 chmod +x /usr/local/bin/menu
 }
 fun_service_start()
@@ -228,7 +233,7 @@ systemctl restart squid
 sudo systemctl enable udpgw
 sudo systemctl restart udpgw
 }
-echo -ne "${GREEN}Installing required packages ............."
+echo -ne "${GREEN}Installing King Amda required packages ............."
 pre_req >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
