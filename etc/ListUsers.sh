@@ -10,3 +10,4 @@ echo -e "${GREEN}$allusers${ENDCOLOR}"
 
 echo -e "\nPress Enter key to return to main menu"; read
 menu
+ 
