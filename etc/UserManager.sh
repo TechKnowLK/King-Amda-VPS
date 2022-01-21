@@ -32,7 +32,7 @@ echo -e "${GREEN}\nPassword :${YELLOW} $password" &&
 echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||
 echo -e "${RED}\nFailed to add user $username please try again.${ENDCOLOR}"
 
-#return to panel
+#return to panel 
 
 echo -e "\nPress Enter key to return to main menu"; read
 menu
