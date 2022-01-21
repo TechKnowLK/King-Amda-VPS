@@ -4,7 +4,7 @@ RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
 BLUE="\e[34m"
-CYAN="\e[36m"
+CYAN="\e[36m" 
 ENDCOLOR="\e[0m"
 
 old_db_port=$(grep "DROPBEAR_PORT=" /etc/default/dropbear | sed 's/=/= /'  | awk '{print$2}')
