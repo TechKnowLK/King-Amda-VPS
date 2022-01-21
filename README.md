@@ -1,6 +1,4 @@
-<center><h1>𝐑𝐞𝐳𝐨𝐭𝐡 𝐒𝐒𝐇 𝐒𝐜𝐫𝐢𝐩𝐭 𝟐.𝟎<b> </h1></center>
-
-[![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh) [![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh/fork)
+<center><h1><b>👑King Amda Ssh Script👑<b></h1></center>
 
 ### ✅ UPDATES & NEW FEATURES
 <a href="https://TechKnowLK/King-Amda-VPS"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
@@ -26,7 +24,7 @@
    
    
 ### ★ About Script   
-Using Rezoth SSH-Script you can easily setup your server with ssh & This will make it easier for you as all the ports will be Auto Open ..
+Using Kingamda SSH-Script you can easily setup your server with ssh & This will make it easier for you as all the ports will be Auto Open ..
 
 ### ★ Manage Script
 
@@ -62,10 +60,7 @@ _- UDPGW Port  =  7300_<br>
  
  
 ## Code Owners 📦
-* [iamtrazy](https://github.com/imatrazy)
-* [HansanaDasanayaka](https://github.com/HansanaDasanayaka)
+* [TechKnowLK](https://github.com/TechKnowLK)
+* [KingAmda](https://github.com/kingamdabota)
  
- ## Support 👊
-<a href="https://t.me/Rezoth"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/rezoth_tm"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
