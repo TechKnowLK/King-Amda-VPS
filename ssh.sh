@@ -234,7 +234,7 @@ sudo systemctl enable udpgw
 sudo systemctl restart udpgw
 }
 echo -ne "${YELLOW}=============================================\n"
-echo -ne "${RED}>>>>>>>>King Amda VPS Script Installing<<<<<<<"
+echo -ne "${RED}>>>>>>>>King Amda VPS Script Installing<<<<<<<\n"
 echo -ne "${YELLOW}=============================================\n\n"
 echo -ne "${GREEN}Installing King Amda required packages ......."
 pre_req >/dev/null 2>&1 &
