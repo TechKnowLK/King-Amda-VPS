@@ -24,8 +24,9 @@ echo -ne "Enter No. of Days till expiration : ";read nod
 exd=$(date +%F  -d "$nod days")
 chage -E $exd $username && echo "$username:$password" | chpasswd &&
 clear &&
+echo -e "${RED}==============" &&
 echo -e "${GREEN}User Detail" &&
-echo -e "${RED}-----------" &&
+echo -e "${RED}==============" &&
 echo -e "${GREEN}\nUsername :${YELLOW} $username" &&
 echo -e "${GREEN}\nPassword :${YELLOW} $password" &&
 echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||

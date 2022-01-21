@@ -233,23 +233,26 @@ systemctl restart squid
 sudo systemctl enable udpgw
 sudo systemctl restart udpgw
 }
-echo -ne "${GREEN}Installing King Amda required packages ............."
+echo -ne "${YELLOW}=============================================\n"
+echo -ne "${RED}>>>>>>>>King Amda VPS Script Installing<<<<<<<"
+echo -ne "${YELLOW}=============================================\n\n"
+echo -ne "${GREEN}Installing King Amda required packages ......."
 pre_req >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${BLUE}Configuring ddddddStunnel, Openssh, Dropbear and Squid ............."
+echo -ne "\n${BLUE}Configuring Stunnel, Openssh, Dropbear and Squid ......."
 mid_conf >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${YELLOW}Compiling ddddand installing Badvpn UDP Gateway ............."
+echo -ne "\n${YELLOW}Compiling and installing Badvpn UDP Gateway ......."
 fun_udpgw >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${CYAN}Installing ddddPanel ............."
+echo -ne "\n${CYAN}Installing Panel ........"
 fun_panel >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
-echo -ne "\n${RED}Starting All ddddthe services ............."
+echo -ne "\n${RED}Starting All The Services ......."
 fun_service_start >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
@@ -260,7 +263,7 @@ echo /bin/false >> /etc/shells
 clear
 
 #Adding the default user
-echo -ne "${GREEN}Enter the default usernameddddd : "; read username
+echo -ne "${GREEN}Enter the default username : "; read username
 while true; do
     read -p "Do you want to genarate a random password ? (Y/N) " yn
     case $yn in
@@ -273,8 +276,9 @@ echo -ne "Enter No. of Days till expiration : ";read nod
 exd=$(date +%F  -d "$nod days")
 useradd -e $exd -M -N -s /bin/false $username && echo "$username:$password" | chpasswd &&
 clear &&
+echo -e "${RED}============================" &&
 echo -e "${GREEN}Default User Details" &&
-echo -e "${RED}--------------------" &&
+echo -e "${RED}============================" &&
 echo -e "${GREEN}\nUsername :${YELLOW} $username" &&
 echo -e "${GREEN}\nPassword :${YELLOW} $password" &&
 echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||
