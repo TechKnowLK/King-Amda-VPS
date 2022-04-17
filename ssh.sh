@@ -79,24 +79,22 @@ EOF
 #Adding the banner
 
 cat << EOF > /etc/banner
-<h1><font><font color="blue">╔══<br>
-║</font> 彡🇱🇰☬<font color="red">K</font><font color="maroon">I</font><font color="maroon">N</font><font color="maroon">G</font> <font color="red">A</font><font color="maroon">M</font><font color="maroon">D</font><font color="maroon">A</font> <font color="red">S</font><font color="maroon">S</font><font color="maroon">H</font>☬🇱🇰彡<font color="blue">║</font><br>
-<font color="blue"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;═╝</font></h1>
+<h5><font color="blue">======================================</font></h5>
+<h2><font color="darkorange">🔥Premium Server🔥</font></h<br>
 <h3>➽───────────────❥
-<h3>ᗚ<font color="red">❌NO SPAM<br></font>
-ᗚ<font color="maroon">❌NO DDOS<br></font>
-ᗚ<font color="red">❌NO HACKING<br></font>
+<i><h3>ᗚ<font color="red">❌NO SPAM<br></font>
+ᗚ<font color="lime">❌NO DDOS<br></font>
+ᗚ<font color="blue">❌NO HACKING<br></font>
 ᗚ<font color="maroon">❌NO CARDING<br></font>
-ᗚ<font color="red">❌NO TORRENT<br></font>
-ᗚ<font color="maroon">❌NO OVER DOWNLOAD<br></font>
-ᗚ<font color="red">❌NO MULTILOGIN</font></h3>
+ᗚ<font color="purple">❌NO TORRENT<br></font>
+ᗚ<font color="fuchsia">❌NO OVER DOWNLOAD<br></font>
+ᗚ<font color="brown">❌NO MULTILOGIN</font></h3></i>
 <h1>➽───────────────❥</h1>
-<h5>ᴍᴀᴋᴇ ʙʏ ᗚ PASINDU SAMARA$INGHA<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; UMINDA HANSANA<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RASITHA LAKSHAN</h5>
-<h1>»»—————　☠　—————««</h1>
-<h3>★彡[<font color="navy">4<font color="blue">2 <font color="navy">ꜱ<font color="blue">ᴇᴛ <font color="navy">ᴇ<font color="blue">ᴋᴀ <font color="navy">ᴛ<font color="blue">ᴇᴀᴍ <font color="navy">ᴡ<font color="blue">ᴏʀᴋ</font></font></font></font></font></font></font></font></font></font>]彡★</h3>
-<h1>»»—————　☠　—————««</h1>
+<h5>ᴍᴀᴋᴇ❤️ʙʏ ᗚ <i>🔥PASINDU SAMARASINGHA</i><br>
+<h1>»»———————　☠　———————««</h1>
+<h2>★彡&lt;./KING AMDA DEVELOPERS &gt;彡★</h2>
+<h1>»»———————　☠　———————««</h1>
+<h5><font color="blue">=======================================</font></h5>
 EOF
 
 #Configuring stunnel
