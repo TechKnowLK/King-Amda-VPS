@@ -60,7 +60,7 @@ echo -e "${CYAN}  [6] ${YELLOW}Edit SSH Banner"
 echo -e "${CYAN}  [7] ${YELLOW}Server Information"
 echo -e "${CYAN}  [8] ${YELLOW}Server Speedtest"
 echo -e "${CYAN}  [9] ${YELLOW}Remove Script"
-echo -e "${CYAN}  [11]${YELLOW}Exit"
+echo -e "${CYAN}  [10]${YELLOW}Exit"
 
 echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
 
